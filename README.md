@@ -25,3 +25,10 @@ Clojure,./src/code_maat/app/app.clj,13,6,94
 Clojure,./test/code_maat/analysis/logical_coupling_test.clj,15,5,89
 ...
 </pre>
+
+Download hibernate sources for investigations:
+<pre>
+prompt> git clone https://github.com/hibernate/hibernate-orm.git
+prompt> cd hibernate-orm
+prompt> git checkout `git rev-list -n 1 --before="2013-09-05" master`
+</pre>
