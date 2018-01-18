@@ -1,7 +1,10 @@
 # try-codemetrics
 Readme for different codemetrics tools
 
-versioning control querying tool:
+Maat is a tool for querying versioning control systems like git, mercurial, svn
+Maat is written in closure, so Leiningen has to be installed on your system in order to build it.
+
+get a summary about source repository:
 <pre>
 prompt> maat -l maat_evo.log -c git -a summary
 statistic,value
